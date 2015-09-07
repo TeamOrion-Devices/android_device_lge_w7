@@ -2,7 +2,7 @@
   {
     "remote":      "github",
     "repository":  "TeamOrion-Devices/device_lge_w7",
-    "target_path": "device/lge_w7",
+    "target_path": "device/lge/w7",
     "revision":    "lp5.1"
   },
   {
