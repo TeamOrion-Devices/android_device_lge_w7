@@ -45,12 +45,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_MEMCPY_BASE_OPT_DISABLE := true
-<<<<<<< HEAD
-TARGET_CPU_SMP := true
 TARGET_CPU_VARIANT := cortex-a7
-=======
-TARGET_CPU_VARIANT := krait
->>>>>>> cb3b50f... Remove SMP flag, already enabled by default
 
 TARGET_BOOTLOADER_BOARD_NAME := w7
 
@@ -65,11 +60,11 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-uber-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.9
+TARGET_GCC_VERSION_EXP := uber-4.9
 
 # Offmode Charging
 COMMON_GLOBAL_CFLAGS += \
@@ -81,6 +76,9 @@ COMMON_GLOBAL_CFLAGS +=  -DLG_CAMERA_HARDWARE
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
+
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
 
 # Audio
 AUDIO_FEATURE_ENABLED_FM := true
