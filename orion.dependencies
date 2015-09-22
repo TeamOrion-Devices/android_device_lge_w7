@@ -16,5 +16,17 @@
     "repository":  "GrinningFerret/proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "revision":    "lp5.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "GrinningFerret/arm-eabi-uber-4.9",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-uber-4.9",
+    "revision":    "master"
+  },
+  {
+    "remote":      "github",
+    "repository":  "GrinningFerret/arm-linux-androideabi-uber-4.9",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-uber-4.9",
+    "revision":    "master"
   }
 ]
