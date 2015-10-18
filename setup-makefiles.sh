@@ -63,7 +63,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/$VENDOR/$DEVICE/overlay
 # Apps
 PRODUCT_PACKAGES += \\
     com.qualcomm.location \\
-    QuickBoot \\
     qcrilmsgtunnel \\
     shutdownlistener
 
@@ -159,16 +158,6 @@ LOCAL_CERTIFICATE := platform
 include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
-LOCAL_MODULE := QuickBoot
-LOCAL_MODULE_OWNER := $VENDOR
-LOCAL_SRC_FILES := proprietary/app/QuickBoot/QuickBoot.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include \$(BUILD_PREBUILT)
-
-include \$(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
 LOCAL_MODULE_OWNER := $VENDOR
 LOCAL_SRC_FILES := proprietary/vendor/lib/libtime_genoff.so
@@ -201,4 +190,3 @@ include \$(BUILD_PREBUILT)
 endif
 
 EOF
-
