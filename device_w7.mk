@@ -148,10 +148,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
 
-# Keyhandler
-#PRODUCT_PACKAGES += \
-#    com.cyanogenmod.keyhandler
-
 # Crda
 PRODUCT_PACKAGES += \
     crda \
