@@ -71,7 +71,6 @@ vendor/lib/libperipheral_client.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libxml.so
-vendor/lib/libCommandSvc.so
 
 # Graphics
 vendor/lib/egl/eglsubAndroid.so
@@ -242,7 +241,6 @@ vendor/lib/libmmcamera_imx219.so
 
 # Media
 lib/libqomx_core.so
-lib/libOmxVdecHevc.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxAmrwbplusDec.so
 vendor/lib/libOmxEvrcDec.so
