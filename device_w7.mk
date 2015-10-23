@@ -121,6 +121,7 @@ PRODUCT_PACKAGES += \
     curl \
     libnl_2 \
     libxml \
+    libxml2 \
     libtinyxml \
     libbson \
     libsymbols-compat
