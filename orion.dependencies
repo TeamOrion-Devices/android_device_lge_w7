@@ -34,7 +34,7 @@
     "repository":  "GrinningFerret/arm-linux-androideabi-uber-4.9",
     "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-uber-4.9",
     "revision":    "master"
-  }
+  },
   {
     "remote":      "github",
     "repository":  "CyanogenMod\android_hardware_sony_timekeep"
