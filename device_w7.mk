@@ -167,11 +167,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += charger charger_res_images
 
 # FM radio
-PRODUCT_PACKAGES += \
-    qcom.fmradio \
-    libqcomfm_jni \
-    FM2 \
-    FMRecord
+#PRODUCT_PACKAGES += \
+#    qcom.fmradio \
+#    libqcomfm_jni \
+#    FM2 \
+#    FMRecord
 
 # GPS
 PRODUCT_PACKAGES += \
