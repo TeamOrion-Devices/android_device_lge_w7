@@ -647,6 +647,13 @@ on property:sys.boot_completed=1
     write /sys/module/cpu_boost/parameters/input_boost_freq 1094400
     write /sys/module/cpu_boost/parameters/input_boost_ms 40
 
+service fm_dl /system/bin/sh /system/etc/init.qcom.fm.sh
+    class late_start
+    user system
+    group system
+    disabled
+    oneshot
+
 ###### This is for CAF ########
 # Configure IO scheduler
 on property:sys.io.scheduler=*
