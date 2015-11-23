@@ -27,3 +27,7 @@ ro.sf.lcd_density=240
 
 # ART
 dalvik.vm.dex2oat-flags=--no-watch-dog
+
+# Telephony
+telephony.lteOnGsmDevice=0
+ro.telephony.default_network=3
