@@ -53,6 +53,13 @@ ART_USE_HSPACE_COMPACT := true
 MALLOC_IMPL := dlmalloc
 # USE_CLANG_PLATFORM_BUILD := true
 
+# Optimizations
+CLANG_O3 := true
+STRICT_ALIASING := false
+KRAIT_TUNINGS := false
+GRAPHITE_OPTS := false
+ENABLE_GCCONLY := true
+
 # Kernel image
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/w7/mkbootimg.mk
@@ -72,11 +79,11 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 #endif
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-uber-4.9/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_GCC_VERSION_ARM := uber-4.9
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := uber-4.9
+TARGET_GCC_VERSION_EXP := 5.2-uber
 
 # Offmode Charging
 COMMON_GLOBAL_CFLAGS += \
