@@ -76,7 +76,7 @@ PRODUCT_COPY_FILES += \
     device/lge/w7/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
     device/lge/w7/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv_boot.bin \
     device/lge/w7/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
-		device/prebuilt/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh 
+    device/lge/w7/prebuilt/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh 
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
