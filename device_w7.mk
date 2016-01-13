@@ -238,8 +238,9 @@ PRODUCT_PACKAGES += \
     hostapd_default.conf \
     libnetcmdiface
 
-# Camera wrapper
+# Camera
 PRODUCT_PACKAGES += \
+    Snap \
     camera.msm8226
 
 # NFC packages
