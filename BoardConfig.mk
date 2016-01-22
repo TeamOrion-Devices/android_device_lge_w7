@@ -83,7 +83,7 @@ KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_GCC_VERSION_ARM := uber-4.9
 
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 5.2-uber
+TARGET_GCC_VERSION_EXP := 4.9-uber
 
 # Offmode Charging
 COMMON_GLOBAL_CFLAGS += \
