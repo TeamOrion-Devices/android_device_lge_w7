@@ -51,4 +51,7 @@
     -->
     <integer name="config_longPressOnHomeBehavior">1</integer>
 
+    <!-- Bool wether to show the notification slider option -->
+    <bool name="config_showNotificationSlider">true</bool>
+
 </resources>
